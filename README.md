@@ -1,10 +1,10 @@
-# Mask R-CNN for Car Damage Detection
+For this to work you must execute the following commands and generate your own weight for the model:
 
-This repo uses the Mask RCNN model from Matterport to train a custom model for detection damage on the cars. See example of detection below:
 
-![alt text](https://github.com/priya-dwivedi/Deep-Learning/blob/master/mask_rcnn_damage_detection/results/combined.jpg)
-
-I have also written a blog that goes into more details on how I trained a custom model. Please see it at the link below:
+Edit the file custom.py with your own parameter, change epochs and steps.
+You can use the current train and test images, or you can add more.
+Execute python3 custom.py train --dataset=/path/to/datasetfolder --weights=coco
+With the new weight file execute the notebooks to predict and test.
 
 
 
